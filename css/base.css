@@ -1,0 +1,221 @@
+/*50s Science*/
+:root {
+  --faded-indigo: #312A4B;
+  --dark-green: #707851;
+  --light-green: #909960;
+  --dark-turqoise: #909991;
+  --bright-turqoise: #6DB59A;
+  --light-turqoise: #B6BFA4;
+  --dark-orange: #D36862;
+  --mid-orange: #E69365;
+  --light-orange: #EDA982;
+  --dark-blue: #37507D;
+  --mid-blue: #3D7895;
+  --light-grey: #DCCBAE;
+  --dark-grey: #9C9585;
+  --red: #D93956;
+  --dark-red: #AD4152;
+  --yellow: #E6C55E;
+}
+
+.layoutTable {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    height: 50px;
+}
+.subheader {
+    height: 10px;
+}
+.menuTable {
+    height: 10px;
+    width: 800px;
+}
+.gridTable {
+    font: 14px sans-serif;
+    
+}
+.keyTable {
+    font: 12px sans-serif;
+    color: var(--light-grey);
+    font-style: italic;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+}
+.link {
+    height: 10px;
+}
+.menu {
+    width: 60px;
+    vertical-align: top;
+
+}
+
+.margin {
+    width: 60px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 100px;
+  height: 16px;
+  padding: 1px;
+  margin-top: 0px;
+  font: 16px sans-serif;
+  color: var(--light-grey);
+  pointer-events: none;
+  background: var(--faded-indigo); 
+}
+
+body {
+  background-color: var(--faded-indigo);
+  color: var(--mid-orange);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  overflow:hidden;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 14px;
+  color: var(--light-orange);
+  background-color: transparent;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 14px;
+  color: var(--light-grey);
+    text-align: left;
+}
+
+h4 {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--light-grey);
+  vertical-align: 0%;
+  text-align: left;
+}
+
+a {
+
+  color: var(--light-grey);
+}
+
+
+hr {
+  background-color: var(--dark-orange);
+  color: var(--dark-orange);
+  text-align: left;
+  clear: none;
+  left: 0px;
+  direction: ltr;
+  margin-top: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+}
+
+
+iframe {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  width: 1000px;
+  height: 560px; 
+  color: var(--dark-orange);
+  
+}
+
+td {
+  
+}
+
+tr {
+  vertical-align: baseline;
+
+/*Type selectors
+
+h1          Selects all level 1 headings          
+p           Selects all paragraphs                
+strong      Selects all strong elements           
+em          Selects all em elements                
+div         Selects all divs                       
+
+
+Descendant selectors
+
+h1 em        Selects em elements contained in an h1 
+div p        Selects p elements contained in a div  
+
+Class selectors
+
+.caption    Selects elements with class "caption" 
+.label      Selects elements with class "label"   
+.axis       Selects elements with class "axis"    
+
+Because elements can have more than one class
+
+.bar.highlight  Could target highlighted bars     
+.axis.x         Could target an x-axis            
+.axis.y         Could target a y-axis             
+
+ID selectors These match the single element with a given ID.
+
+#header     Selects element with ID "header"      
+#nav        Selects element with ID "nav"         
+#export     Selects element with ID "export"      
+
+You can string selectors together 
+
+
+div.sidebar Selects divs with class "sidebar", but
+               not other elements with that class    
+#button.on  Selects element with ID "button", but
+               only when the class "on" is applied   
+               
+ 
+
+Groups of property/value pairs cumulatively form the styles:
+
+margin: 10px;
+padding: 25px;
+background-color: yellow;
+color: pink;
+font-family: Helvetica, Arial, sans-serif;
+
+
+
+Text properties:
+color: green;
+text-align: center; (left, right,justify)
+text-decoration: none; -no links underlined (overline,linethrough,underline)
+text-transform: uppercase; (lowercase, capitalize)
+text-indent: 50px;
+letter-spacing: 3px;
+line-height: 0.8; (space between lines)
+word-spacing: 10px;
+
+font-style: normal; (italic, oblique)
+
+
+
+square with text in it:
+.fixed-size-square {
+    display: table;
+    width: 200px;
+    height: 200px;
+    background: #4679BD;
+}
+.fixed-size-square span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: white
+}
+ 
+*/
